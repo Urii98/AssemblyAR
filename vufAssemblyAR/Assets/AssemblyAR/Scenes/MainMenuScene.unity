@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 42624721}
   - component: {fileID: 42624720}
   m_Layer: 5
-  m_Name: Kitchen & appliances Container
+  m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -733,7 +733,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 7179.1025}
+  m_SizeDelta: {x: 0, y: 9124.702}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &54405183
 GameObject:
@@ -1406,7 +1406,7 @@ GameObject:
   - component: {fileID: 143927482}
   - component: {fileID: 143927481}
   m_Layer: 5
-  m_Name: Bathroom and accesories Container
+  m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1519,7 +1519,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6, y: 132}
+  m_AnchoredPosition: {x: -6, y: 179}
   m_SizeDelta: {x: 0, y: -286.6082}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &185196206
@@ -1586,7 +1586,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0c17d1f543767644aadc0ad2137bbe83, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b5f86abbd239e24aab24860140efa62, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2217,7 +2217,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d19d50b7af5d3af41a60257d83769027, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74944321ee5ece849b209d39fd1c7d6c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2433,7 +2433,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 271953104}
   m_OnClick:
     m_PersistentCalls:
@@ -2533,7 +2533,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Special prices
+  m_text: Sandsberg
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee95344861d094c429b2636a9598fe88, type: 2}
   m_sharedMaterial: {fileID: -1828022542942665413, guid: ee95344861d094c429b2636a9598fe88,
@@ -3126,7 +3126,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 318405621}
   m_OnClick:
     m_PersistentCalls:
@@ -3271,7 +3271,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e4ab33fadc7a0443adfae47bbfb473c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c46679b5df73498478ce2a3326ce2365, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4573,7 +4573,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1487}
+  m_AnchoredPosition: {x: 0, y: -658}
   m_SizeDelta: {x: 1920, y: 4780}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &487472423
@@ -4597,7 +4597,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 855, y: 1000}
-  m_Spacing: {x: 50, y: 0}
+  m_Spacing: {x: 50, y: 50}
   m_Constraint: 1
   m_ConstraintCount: 2
 --- !u!1 &496295538
@@ -4613,7 +4613,7 @@ GameObject:
   - component: {fileID: 496295541}
   - component: {fileID: 496295540}
   m_Layer: 5
-  m_Name: Pots & Plants Container
+  m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4726,7 +4726,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6, y: 162}
+  m_AnchoredPosition: {x: 7, y: 162}
   m_SizeDelta: {x: 0, y: -286.6082}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &506740417
@@ -4793,7 +4793,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: de711f5768bd59e4fb78603c6ef17ec5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cff43a13a920b5e47940576333957073, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5252,7 +5252,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 562550140}
   m_OnClick:
     m_PersistentCalls:
@@ -5494,7 +5494,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 594911053}
   m_OnClick:
     m_PersistentCalls:
@@ -5594,7 +5594,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: News
+  m_text: Vihals
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee95344861d094c429b2636a9598fe88, type: 2}
   m_sharedMaterial: {fileID: -1828022542942665413, guid: ee95344861d094c429b2636a9598fe88,
@@ -5981,7 +5981,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &631565152
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6041,14 +6041,14 @@ RectTransform:
   m_GameObject: {fileID: 644437564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8788904, y: 1.8788904, z: 1.8788904}
+  m_LocalScale: {x: 1.1122223, y: 1.1122223, z: 1.1122223}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 852213779}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 237, y: 334}
+  m_AnchoredPosition: {x: 26, y: 153}
   m_SizeDelta: {x: 0, y: -286.6082}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &644437566
@@ -6115,7 +6115,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 771a5b7bed1dd6b4e82da07ad85f5f20, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 70043e58d11c3d64185576f58027a090, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6301,7 +6301,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 669724706}
   m_OnClick:
     m_PersistentCalls:
@@ -6338,7 +6338,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c469e9f1f34c6a349be7dd10af12088f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 609466e1fe6853a4bacf36422d9aad68, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6631,7 +6631,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53, y: 1147}
+  m_AnchoredPosition: {x: 53, y: 2069.2065}
   m_SizeDelta: {x: 1755.4609, y: 129.6088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &683067275
@@ -7967,7 +7967,7 @@ GameObject:
   - component: {fileID: 819240010}
   - component: {fileID: 819240009}
   m_Layer: 5
-  m_Name: Special Prices Container
+  m_Name: SANDSBERG Chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8102,7 +8102,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Storage & Organisation
+  m_text: Tyssedal
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee95344861d094c429b2636a9598fe88, type: 2}
   m_sharedMaterial: {fileID: -1828022542942665413, guid: ee95344861d094c429b2636a9598fe88,
@@ -8284,7 +8284,7 @@ GameObject:
   - component: {fileID: 852213781}
   - component: {fileID: 852213780}
   m_Layer: 5
-  m_Name: Novedades Container
+  m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8608,7 +8608,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6, y: 144}
+  m_AnchoredPosition: {x: -6, y: 205}
   m_SizeDelta: {x: 0, y: -286.6082}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887921098
@@ -8675,7 +8675,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8994d918fbe86ec4da0a92326353f138, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ec730c396282d4141aed226e769e7215, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8764,6 +8764,7 @@ GameObject:
   - component: {fileID: 956588011}
   - component: {fileID: 956588013}
   - component: {fileID: 956588012}
+  - component: {fileID: 956588014}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -8803,7 +8804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7607843}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8828,6 +8829,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956588010}
   m_CullTransparentMesh: 1
+--- !u!114 &956588014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956588010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 606627da590ce174db394c66ade22d66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _positionYToTrack: {fileID: 45757448}
 --- !u!1 &1025614499
 GameObject:
   m_ObjectHideFlags: 0
@@ -9019,7 +9033,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kitchen & Appliances
+  m_text: Kleppstad
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee95344861d094c429b2636a9598fe88, type: 2}
   m_sharedMaterial: {fileID: -1828022542942665413, guid: ee95344861d094c429b2636a9598fe88,
@@ -9131,7 +9145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.259033, y: 2328}
+  m_AnchoredPosition: {x: -7.259033, y: 3250.2065}
   m_SizeDelta: {x: 1755.4609, y: 129.6088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1063659945
@@ -9637,14 +9651,14 @@ RectTransform:
   m_GameObject: {fileID: 1138344845}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2424533, y: 1.2424533, z: 1.2424533}
+  m_LocalScale: {x: 1.0337957, y: 1.0337957, z: 1.0337957}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 819240008}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6, y: 234}
+  m_AnchoredPosition: {x: -6, y: 149}
   m_SizeDelta: {x: 0, y: -286.6082}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1138344847
@@ -9686,11 +9700,23 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1138344848}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 128192446}
+        m_TargetAssemblyTypeName: PanelsTweeningManager, Assembly-CSharp
+        m_MethodName: MovePanelsLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1138344848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9711,7 +9737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 78c2f876e743e3242a9d624eda8fd9f6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f78cb0f67b81f274fbc7e044e75984a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9742,7 +9768,7 @@ GameObject:
   - component: {fileID: 1144453387}
   - component: {fileID: 1144453386}
   m_Layer: 5
-  m_Name: Storage Container
+  m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9922,7 +9948,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d03ea4a444c1f474d80ac2977349a84a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1c44fdf08c7f0ba4d86cb2bd8f551904, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10358,7 +10384,7 @@ GameObject:
   - component: {fileID: 1223713815}
   - component: {fileID: 1223713814}
   m_Layer: 5
-  m_Name: Furtniure Container
+  m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10493,7 +10519,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kitchenware & Tableware
+  m_text: Holmby
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee95344861d094c429b2636a9598fe88, type: 2}
   m_sharedMaterial: {fileID: -1828022542942665413, guid: ee95344861d094c429b2636a9598fe88,
@@ -11265,7 +11291,7 @@ GameObject:
   - component: {fileID: 1364478022}
   - component: {fileID: 1364478021}
   m_Layer: 5
-  m_Name: Textiles Container
+  m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11377,7 +11403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1289}
+  m_AnchoredPosition: {x: 0, y: 2211.2065}
   m_SizeDelta: {x: 1651.9, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1370648386
@@ -12175,7 +12201,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -7.258911, y: 1808.7935}
+  m_AnchoredPosition: {x: -7.258911, y: 2731}
   m_SizeDelta: {x: -164.54, y: 744.4132}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1435256633
@@ -12438,7 +12464,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bathroom & Accesories
+  m_text: Brimnes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee95344861d094c429b2636a9598fe88, type: 2}
   m_sharedMaterial: {fileID: -1828022542942665413, guid: ee95344861d094c429b2636a9598fe88,
@@ -12830,7 +12856,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aed59f13df5c75e48a4a771c6f3fcdb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fc56becc1c55a14c9fa26a9e604aab4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13026,7 +13052,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Textiles
+  m_text: 'London Bed '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee95344861d094c429b2636a9598fe88, type: 2}
   m_sharedMaterial: {fileID: -1828022542942665413, guid: ee95344861d094c429b2636a9598fe88,
@@ -13500,7 +13526,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Furniture
+  m_text: Songesand
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee95344861d094c429b2636a9598fe88, type: 2}
   m_sharedMaterial: {fileID: -1828022542942665413, guid: ee95344861d094c429b2636a9598fe88,
@@ -13998,7 +14024,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Outdoor Products
+  m_text: Platsa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee95344861d094c429b2636a9598fe88, type: 2}
   m_sharedMaterial: {fileID: -1828022542942665413, guid: ee95344861d094c429b2636a9598fe88,
@@ -15553,7 +15579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2003989813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15896,7 +15922,7 @@ GameObject:
   - component: {fileID: 2028771809}
   - component: {fileID: 2028771808}
   m_Layer: 5
-  m_Name: Kitchenware & tableware Container
+  m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16469,7 +16495,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pots & Plants
+  m_text: Pax / Grimo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee95344861d094c429b2636a9598fe88, type: 2}
   m_sharedMaterial: {fileID: -1828022542942665413, guid: ee95344861d094c429b2636a9598fe88,
@@ -16837,7 +16863,7 @@ GameObject:
   - component: {fileID: 2119312581}
   - component: {fileID: 2119312580}
   m_Layer: 5
-  m_Name: Outdoor Products Container
+  m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
