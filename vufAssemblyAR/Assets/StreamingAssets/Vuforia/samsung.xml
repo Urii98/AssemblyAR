@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="samsung" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="samsungs_assembly" assemblyId="205a46e40c164783bcc79e153f0337d7">
+<Part name="samsung" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-1.68448 56.201 406.524" rotation="AD: -0.996791 -0.112322 1.02498 171.289" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

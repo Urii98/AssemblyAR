@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="10.22.5">
+<ModelTarget name="samsung" targetId="045fd9995f324c1a955d809175a24547" version="14.0" toolVersion="10.22.5" bbox="-109.500435 -18.269249 -142.251556 109.440071 196.253586 142.251556" previewImage="045fd9995f324c1a955d809175a24547_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="samsungs_assembly" assemblyId="205a46e40c164783bcc79e153f0337d7">
+<Part name="samsung" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-1.68448 56.201 406.524" rotation="AD: -0.996791 -0.112322 1.02498 171.289" image="samsung_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

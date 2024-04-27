@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="classic-mug" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="classic-mugs_assembly" assemblyId="7949812958a548b5b0412393583610a2">
+<Part name="classic-mug" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.0191042 0.0339891 0.259075" rotation="AD: 0.987088 0.280109 -0.758986 211.861" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QCARConfig>
+    <Tracking>
+        <ModelTarget name="Coffee_cup_withe_" trackingMode="car" motionHint="adaptive" upVector="0.0 0.0 1.0" optimizeTrackingFor="default"></ModelTarget>
+    </Tracking>
+    <Assembly name="Coffee_cup_withe_" assemblyId="da41c7b17b4f450bba0cd83785375331">
+        <Part name="Coffee_cup_withe_" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+</QCARConfig>

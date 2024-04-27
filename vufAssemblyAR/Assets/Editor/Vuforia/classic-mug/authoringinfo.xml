@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="10.22.5">
+<ModelTarget name="classic-mug" targetId="3ace1d54e5b34913bb555944c70fd8d7" version="14.0" toolVersion="10.22.5" bbox="-0.068321 -0.000383 -0.056132 0.052846 0.094803 0.020710" previewImage="3ace1d54e5b34913bb555944c70fd8d7_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="classic-mugs_assembly" assemblyId="7949812958a548b5b0412393583610a2">
+<Part name="classic-mug" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.0191042 0.0339891 0.259075" rotation="AD: 0.987088 0.280109 -0.758986 211.861" image="classic-mug_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>
