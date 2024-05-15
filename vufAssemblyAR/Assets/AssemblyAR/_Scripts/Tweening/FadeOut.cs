@@ -16,6 +16,9 @@ public class FadeOut : MonoBehaviour
     [SerializeField] private Ease _fadeEase = Ease.InSine;
     [SerializeField] private float _fadeValue = 1f;
 
+
+    public bool startFadeout = false;
+
     private Image _imageToFade;
     private CanvasGroup _canvasGroupObjectToShow;
 
@@ -26,6 +29,11 @@ public class FadeOut : MonoBehaviour
         _imageToFade = GetComponent<Image>();
 
         _canvasGroupObjectToShow.blocksRaycasts = false;
+
+        if(startFadeout)
+        {
+            FadeOutFromValue(1f);
+        }
     }
 
 

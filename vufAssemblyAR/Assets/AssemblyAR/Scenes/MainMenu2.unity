@@ -1380,8 +1380,8 @@ RectTransform:
   - {fileID: 1173343768}
   - {fileID: 940249183}
   - {fileID: 1363923342}
-  - {fileID: 2003989816}
   - {fileID: 2091861325}
+  - {fileID: 2003989816}
   - {fileID: 631565152}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1408,6 +1408,7 @@ MonoBehaviour:
   - {fileID: 1363923341}
   _tweenTime: 0.5
   _ease: 1
+  startAtLastScren: 1
 --- !u!1 &132483536
 GameObject:
   m_ObjectHideFlags: 0
@@ -6570,7 +6571,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &631565152
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19611,9 +19612,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _objectToShow: {fileID: 1173343765}
   _delay: 0
-  _duration: 0.4
+  _duration: 2
   _fadeEase: 2
   _fadeValue: 1
+  startFadeout: 1
 --- !u!114 &2003989814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20935,6 +20937,7 @@ GameObject:
   - component: {fileID: 2108829786}
   - component: {fileID: 2108829785}
   - component: {fileID: 2108829788}
+  - component: {fileID: 2108829789}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -21033,6 +21036,19 @@ MonoBehaviour:
   constraint: 1
   camera: {fileID: 2108829786}
   executeInUpdate: 1
+--- !u!114 &2108829789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108829784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 189b6eb30f1e069408cc0e49cad7b07f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneOrientation: 1
 --- !u!1 &2119312578
 GameObject:
   m_ObjectHideFlags: 0

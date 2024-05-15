@@ -13,12 +13,22 @@ public class PanelsTweeningManager : MonoBehaviour
     [SerializeField] private float _tweenTime = 0.5f;
     [SerializeField] private Ease _ease = Ease.Linear;
 
+    [SerializeField] private bool startAtLastScren = false;
+
     private int currentIndex = 0;
 
 
     void Start()
     {
-        InitializePanelsPosition();
+        if(startAtLastScren)
+        {
+            StartAtLastScreen();
+        }
+        else
+        {
+            InitializePanelsPosition();
+
+        }
         UpdateCanvasGroups();
     }
 
@@ -27,6 +37,17 @@ public class PanelsTweeningManager : MonoBehaviour
         for (int i = 0; i < _panels.Count; i++)
         {
             _panels[i].transform.localPosition = new Vector3(1920 * i, 0, 0);
+        }
+    }
+
+    void StartAtLastScreen()
+    {
+        currentIndex = 2;
+        for (int i = 0; i < _panels.Count; i++)
+        {
+            _panels[0].transform.localPosition = new Vector3(-1920 * 2, 0, 0);
+            _panels[1].transform.localPosition = new Vector3(-1920 * 1, 0, 0);
+            _panels[2].transform.localPosition = new Vector3(0, 0, 0);
         }
     }
 

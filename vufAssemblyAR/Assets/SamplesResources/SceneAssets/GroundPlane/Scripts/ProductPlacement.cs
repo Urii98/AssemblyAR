@@ -169,6 +169,7 @@ public class ProductPlacement : MonoBehaviour
 
     void SetupMaterials()
     {
+        return;
         mChairMaterials = new[]
                           {
                               Resources.Load<Material>(RESOURCES_CHAIR_BODY),
@@ -202,6 +203,7 @@ public class ProductPlacement : MonoBehaviour
 
     void EnablePreviewModeTransparency(bool previewEnabled)
     {
+        return;
         mChairRenderer.materials = previewEnabled ? mChairMaterialsTransparent : mChairMaterials;
         mChairShadowRenderer.material = previewEnabled ? mChairShadowMaterialTransparent : mChairShadowMaterial;
     }
