@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32937bd9f0315d747be26c9a91e2961e, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  explanationText: "1.Colocar las patas en la posici\xF3n correcta seg\xFAn la animaci\xF3n.\n2.Introduce
+    el respaldo en la parte superior de las dos patas."
+  stepImage: {fileID: 21300000, guid: 62c1b7f60162e4b46b5ccd88dfad2eda, type: 3}
+  requiredItemsText: '- Respaldo
+
+    - Pata izquierda y derecha'
