@@ -103,7 +103,12 @@ public class ProductPlacement : MonoBehaviour
             // 1. Target Status is Tracked, Extended Tracked or Limited
             // 2. Ground Plane Hit was received for this frame
             var isVisible = VuforiaBehaviour.Instance.DevicePoseBehaviour.TargetStatus.IsTrackedOrLimited() && GroundPlaneHitReceived;
-            mChairRenderer.enabled = mChairShadowRenderer.enabled = isVisible;
+            if(mChairRenderer != null)
+            {
+                mChairRenderer.enabled = mChairShadowRenderer.enabled = isVisible;
+            }
+            
+
         }
     }
 
