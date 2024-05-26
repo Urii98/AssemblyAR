@@ -151,6 +151,7 @@ public class ProductPlacement : MonoBehaviour
         mIsPlaced = true;
     }
 
+
     /// <summary>
     /// Displays a preview of the chair at the location pointed by the device.
     /// It is registered to PlaneFinderBehaviour.OnAutomaticHitTest.
