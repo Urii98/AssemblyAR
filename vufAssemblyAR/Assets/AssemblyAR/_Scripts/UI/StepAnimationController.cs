@@ -12,8 +12,8 @@ public class StepAnimationController : MonoBehaviour
             obj.SetActive(false);
         }
         
-        if (stepGameObjects.Length > 0)
-            stepGameObjects[0].SetActive(true);
+        //if (stepGameObjects.Length > 0)
+        //    stepGameObjects[0].SetActive(true);
     }
 
     public void ActivateStepObject(int index)

@@ -64,7 +64,11 @@ public class ProductPlacementAR : MonoBehaviour
 
     public void InitializeRotationslider()
     {
-        RotationSlider.value = ARObjectToPlace.transform.localEulerAngles.y;
+        if(RotationSlider != null)
+        {
+            RotationSlider.value = ARObjectToPlace.transform.localEulerAngles.y;
+        }
+        
 
     }
 

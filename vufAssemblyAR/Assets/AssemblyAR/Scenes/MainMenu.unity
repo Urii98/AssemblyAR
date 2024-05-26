@@ -9393,7 +9393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf05d9d6cc6aac54fbdb51d13d74fcf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ModelTargetPC
+  sceneName: Tutorial
 --- !u!114 &786788573
 MonoBehaviour:
   m_ObjectHideFlags: 0

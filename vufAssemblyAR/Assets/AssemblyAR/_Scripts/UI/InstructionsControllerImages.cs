@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TMPro;
 
 public class InstructionsControllerImages : MonoBehaviour
 {
@@ -13,7 +14,11 @@ public class InstructionsControllerImages : MonoBehaviour
     [Header("Animation Controllers")]
     [SerializeField] private StepAnimationController animationController, animationControllerAR;
 
+    [Header("Current Step Text")]
+    [SerializeField] private TextMeshProUGUI _stepText;
+
     [SerializeField] private BackButtonWarningPanel backButtonWarningPanel;
+    [SerializeField] private float _timeToWaitCongratsPanel;
 
     private int currentStepIndex = 0;
     private AudioSource _audioSource;
@@ -41,11 +46,9 @@ public class InstructionsControllerImages : MonoBehaviour
             UpdateUI();
             animationController.ActivateStepObject(currentStepIndex);
             animationControllerAR.ActivateStepObject(currentStepIndex);
-        }
-        else
-        {
             CheckFinalStep();
         }
+
     }
 
     public void PreviousStep()
@@ -62,6 +65,7 @@ public class InstructionsControllerImages : MonoBehaviour
     private void UpdateUI()
     {
         fullStepImageUI.sprite = stepImages[currentStepIndex];
+        _stepText.text = (currentStepIndex+1).ToString() + " / 7";
     }
 
     private void CheckFinalStep()
@@ -75,7 +79,7 @@ public class InstructionsControllerImages : MonoBehaviour
     private IEnumerator FinalStepRoutine()
     {
         int lastIndex = currentStepIndex;
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(_timeToWaitCongratsPanel);
 
         if (currentStepIndex == lastIndex)
         {

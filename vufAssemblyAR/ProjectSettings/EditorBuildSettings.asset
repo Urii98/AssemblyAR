@@ -5,27 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/SamplesResources/Scenes/ModelTargetAdvancedCup.unity
-    guid: 4fe13aa094e027f48b3ea295290ace5f
-  - enabled: 0
-    path: Assets/AssemblyAR/Scenes/Logo.unity
-    guid: a124d97a4d0ab114bb2a6b5379df5946
   - enabled: 1
     path: Assets/AssemblyAR/Scenes/MainMenu.unity
     guid: 3dbc40edde470334dbc3aed0d4217e10
   - enabled: 1
     path: Assets/AssemblyAR/Scenes/Tutorial.unity
     guid: b0e322e0fe968284daf5426eb2e337c6
-  - enabled: 0
-    path: Assets/AssemblyAR/Scenes/TutorialAR.unity
-    guid: 7869e7abf8c91934f8c486d7864c4ed5
-  - enabled: 0
-    path: Assets/AssemblyAR/Scenes/ViewAR.unity
-    guid: a9d34372cb08c034ea259d45988bf16d
-  - enabled: 0
-    path: Assets/SamplesResources/Scenes/ModelTargetPC.unity
-    guid: 8c7c3c3f6b4b83b46be06ff99a0c3e26
   - enabled: 1
     path: Assets/SamplesResources/Scenes/3-GroundPlane.unity
     guid: bb0581d54f59940a2932e9d2ccd368c6

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2537370090070015503
+--- !u!1001 &6046493718737775183
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -58,21 +58,21 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bb3e0a8aee346ca4bb1dbd26a247cc2f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8656225094043567667}
+      addedObject: {fileID: 52287791161523451}
   m_SourcePrefab: {fileID: 100100000, guid: bb3e0a8aee346ca4bb1dbd26a247cc2f, type: 3}
---- !u!1 &3456483536790340446 stripped
+--- !u!1 &6856765417427556126 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bb3e0a8aee346ca4bb1dbd26a247cc2f, type: 3}
-  m_PrefabInstance: {fileID: 2537370090070015503}
+  m_PrefabInstance: {fileID: 6046493718737775183}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &8656225094043567667
+--- !u!95 &52287791161523451
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3456483536790340446}
+  m_GameObject: {fileID: 6856765417427556126}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: f05f2e738e8465d419119a9036401637, type: 2}
