@@ -6,6 +6,9 @@ public class FeedbackManager : MonoBehaviour
 
     [SerializeField] private AudioSource successAudioSource;
 
+    public bool isSoundEnabled = true;
+    public bool isVibrationEnabled = true;
+
     void Awake()
     {
 
@@ -25,12 +28,22 @@ public class FeedbackManager : MonoBehaviour
         
         if (successAudioSource != null)
         {
-            successAudioSource.Play();
+
+            if(isSoundEnabled)
+            {
+                successAudioSource.Play();
+            }
+            
         }
 
         
 #if UNITY_ANDROID
-        Handheld.Vibrate();
+
+        if(isVibrationEnabled) 
+        {
+            Handheld.Vibrate();
+        }
+        
 #endif
     }
 }

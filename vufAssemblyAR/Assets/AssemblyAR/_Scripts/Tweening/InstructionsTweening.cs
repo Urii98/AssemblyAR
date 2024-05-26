@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using TMPro;
+using UnityEngine.UI;
 
 public class InstructionsTweening : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class InstructionsTweening : MonoBehaviour
     [SerializeField] private Ease _ease = Ease.Linear;
     [SerializeField] private Ease _easeText = Ease.Linear;
     [SerializeField] private float _amountToMove;
+
+    [SerializeField] private Image _imageButton;
+    [SerializeField] private Sprite _buttonShow;
+    [SerializeField] private Sprite _buttonHide;
 
     private CanvasGroup canvasGroup;
     private bool isPanelVisible = false;
@@ -45,7 +50,7 @@ public class InstructionsTweening : MonoBehaviour
         _panel.transform.DOLocalMoveX(panelInitialLocalPosition.x - _amountToMove, _time).SetEase(_ease);
         _button.transform.DOLocalMoveX(buttonInitialLocalPosition.x - _amountToMove, _time).SetEase(_ease);
         canvasGroup.DOFade(1, _time).SetEase(_ease);
-        _text.DOFade(0, _time/2).SetEase(_easeText);
+        _text.DOFade(0, _time / 2).SetEase(_easeText).OnComplete(() => UpdateButtonSprite());
     }
 
     private void HidePanel()
@@ -53,6 +58,12 @@ public class InstructionsTweening : MonoBehaviour
         _panel.transform.DOLocalMoveX(panelInitialLocalPosition.x, _time).SetEase(_ease);
         _button.transform.DOLocalMoveX(buttonInitialLocalPosition.x, _time).SetEase(_ease);
         canvasGroup.DOFade(0, _time).SetEase(_ease);
-        _text.DOFade(1, _time/2).SetEase(_easeText);
+        _text.DOFade(1, _time / 2).SetEase(_easeText).OnComplete(() => UpdateButtonSprite());
+    }
+
+    private void UpdateButtonSprite()
+    {
+        
+        _imageButton.sprite = isPanelVisible ? _buttonShow : _buttonHide;
     }
 }
